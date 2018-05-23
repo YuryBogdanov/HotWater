@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF665AED20B52ECC00256B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665AEC20B52ECC00256B95 /* AppDelegate.swift */; };
+		EF665AEF20B52ECC00256B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665AEE20B52ECC00256B95 /* ViewController.swift */; };
+		EF665AF220B52ECC00256B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF665AF020B52ECC00256B95 /* Main.storyboard */; };
+		EF665AF520B52ECC00256B95 /* HotWater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF665AF320B52ECC00256B95 /* HotWater.xcdatamodeld */; };
+		EF665AF720B52ED200256B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF665AF620B52ED200256B95 /* Assets.xcassets */; };
+		EF665AFA20B52ED200256B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF665AF820B52ED200256B95 /* LaunchScreen.storyboard */; };
+		EF665B0520B52ED300256B95 /* HotWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665B0420B52ED300256B95 /* HotWaterTests.swift */; };
+		EF665B1020B52ED300256B95 /* HotWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665B0F20B52ED300256B95 /* HotWaterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF665B0120B52ED300256B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF665AE120B52ECC00256B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF665AE820B52ECC00256B95;
+			remoteInfo = HotWater;
+		};
+		EF665B0C20B52ED300256B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF665AE120B52ECC00256B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF665AE820B52ECC00256B95;
+			remoteInfo = HotWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF665AE920B52ECC00256B95 /* HotWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF665AEC20B52ECC00256B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF665AEE20B52ECC00256B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF665AF120B52ECC00256B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF665AF420B52ECC00256B95 /* HotWater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HotWater.xcdatamodel; sourceTree = "<group>"; };
+		EF665AF620B52ED200256B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF665AF920B52ED200256B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF665AFB20B52ED200256B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF665B0020B52ED300256B95 /* HotWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF665B0420B52ED300256B95 /* HotWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotWaterTests.swift; sourceTree = "<group>"; };
+		EF665B0620B52ED300256B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF665B0B20B52ED300256B95 /* HotWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF665B0F20B52ED300256B95 /* HotWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotWaterUITests.swift; sourceTree = "<group>"; };
+		EF665B1120B52ED300256B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF665AE620B52ECC00256B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF665AFD20B52ED300256B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF665B0820B52ED300256B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF665AE020B52ECC00256B95 = {
+			isa = PBXGroup;
+			children = (
+				EF665AEB20B52ECC00256B95 /* HotWater */,
+				EF665B0320B52ED300256B95 /* HotWaterTests */,
+				EF665B0E20B52ED300256B95 /* HotWaterUITests */,
+				EF665AEA20B52ECC00256B95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF665AEA20B52ECC00256B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF665AE920B52ECC00256B95 /* HotWater.app */,
+				EF665B0020B52ED300256B95 /* HotWaterTests.xctest */,
+				EF665B0B20B52ED300256B95 /* HotWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF665AEB20B52ECC00256B95 /* HotWater */ = {
+			isa = PBXGroup;
+			children = (
+				EF665AEC20B52ECC00256B95 /* AppDelegate.swift */,
+				EF665AEE20B52ECC00256B95 /* ViewController.swift */,
+				EF665AF020B52ECC00256B95 /* Main.storyboard */,
+				EF665AF620B52ED200256B95 /* Assets.xcassets */,
+				EF665AF820B52ED200256B95 /* LaunchScreen.storyboard */,
+				EF665AFB20B52ED200256B95 /* Info.plist */,
+				EF665AF320B52ECC00256B95 /* HotWater.xcdatamodeld */,
+			);
+			path = HotWater;
+			sourceTree = "<group>";
+		};
+		EF665B0320B52ED300256B95 /* HotWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF665B0420B52ED300256B95 /* HotWaterTests.swift */,
+				EF665B0620B52ED300256B95 /* Info.plist */,
+			);
+			path = HotWaterTests;
+			sourceTree = "<group>";
+		};
+		EF665B0E20B52ED300256B95 /* HotWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF665B0F20B52ED300256B95 /* HotWaterUITests.swift */,
+				EF665B1120B52ED300256B95 /* Info.plist */,
+			);
+			path = HotWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF665AE820B52ECC00256B95 /* HotWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF665B1420B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWater" */;
+			buildPhases = (
+				EF665AE520B52ECC00256B95 /* Sources */,
+				EF665AE620B52ECC00256B95 /* Frameworks */,
+				EF665AE720B52ECC00256B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotWater;
+			productName = HotWater;
+			productReference = EF665AE920B52ECC00256B95 /* HotWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF665AFF20B52ED300256B95 /* HotWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF665B1720B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWaterTests" */;
+			buildPhases = (
+				EF665AFC20B52ED300256B95 /* Sources */,
+				EF665AFD20B52ED300256B95 /* Frameworks */,
+				EF665AFE20B52ED300256B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF665B0220B52ED300256B95 /* PBXTargetDependency */,
+			);
+			name = HotWaterTests;
+			productName = HotWaterTests;
+			productReference = EF665B0020B52ED300256B95 /* HotWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF665B0A20B52ED300256B95 /* HotWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF665B1A20B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWaterUITests" */;
+			buildPhases = (
+				EF665B0720B52ED300256B95 /* Sources */,
+				EF665B0820B52ED300256B95 /* Frameworks */,
+				EF665B0920B52ED300256B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF665B0D20B52ED300256B95 /* PBXTargetDependency */,
+			);
+			name = HotWaterUITests;
+			productName = HotWaterUITests;
+			productReference = EF665B0B20B52ED300256B95 /* HotWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF665AE120B52ECC00256B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Oleg Shupulin";
+				TargetAttributes = {
+					EF665AE820B52ECC00256B95 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EF665AFF20B52ED300256B95 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EF665AE820B52ECC00256B95;
+					};
+					EF665B0A20B52ED300256B95 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EF665AE820B52ECC00256B95;
+					};
+				};
+			};
+			buildConfigurationList = EF665AE420B52ECC00256B95 /* Build configuration list for PBXProject "HotWater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF665AE020B52ECC00256B95;
+			productRefGroup = EF665AEA20B52ECC00256B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF665AE820B52ECC00256B95 /* HotWater */,
+				EF665AFF20B52ED300256B95 /* HotWaterTests */,
+				EF665B0A20B52ED300256B95 /* HotWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF665AE720B52ECC00256B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF665AFA20B52ED200256B95 /* LaunchScreen.storyboard in Resources */,
+				EF665AF720B52ED200256B95 /* Assets.xcassets in Resources */,
+				EF665AF220B52ECC00256B95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF665AFE20B52ED300256B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF665B0920B52ED300256B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF665AE520B52ECC00256B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF665AF520B52ECC00256B95 /* HotWater.xcdatamodeld in Sources */,
+				EF665AEF20B52ECC00256B95 /* ViewController.swift in Sources */,
+				EF665AED20B52ECC00256B95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF665AFC20B52ED300256B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF665B0520B52ED300256B95 /* HotWaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF665B0720B52ED300256B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF665B1020B52ED300256B95 /* HotWaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF665B0220B52ED300256B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF665AE820B52ECC00256B95 /* HotWater */;
+			targetProxy = EF665B0120B52ED300256B95 /* PBXContainerItemProxy */;
+		};
+		EF665B0D20B52ED300256B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF665AE820B52ECC00256B95 /* HotWater */;
+			targetProxy = EF665B0C20B52ED300256B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF665AF020B52ECC00256B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF665AF120B52ECC00256B95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF665AF820B52ED200256B95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF665AF920B52ED200256B95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF665B1220B52ED300256B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF665B1320B52ED300256B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF665B1520B52ED300256B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS76VV6WJD;
+				INFOPLIST_FILE = HotWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF665B1620B52ED300256B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS76VV6WJD;
+				INFOPLIST_FILE = HotWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF665B1820B52ED300256B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS76VV6WJD;
+				INFOPLIST_FILE = HotWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotWater.app/HotWater";
+			};
+			name = Debug;
+		};
+		EF665B1920B52ED300256B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS76VV6WJD;
+				INFOPLIST_FILE = HotWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotWater.app/HotWater";
+			};
+			name = Release;
+		};
+		EF665B1B20B52ED300256B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS76VV6WJD;
+				INFOPLIST_FILE = HotWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotWater;
+			};
+			name = Debug;
+		};
+		EF665B1C20B52ED300256B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS76VV6WJD;
+				INFOPLIST_FILE = HotWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF665AE420B52ECC00256B95 /* Build configuration list for PBXProject "HotWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF665B1220B52ED300256B95 /* Debug */,
+				EF665B1320B52ED300256B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF665B1420B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF665B1520B52ED300256B95 /* Debug */,
+				EF665B1620B52ED300256B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF665B1720B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF665B1820B52ED300256B95 /* Debug */,
+				EF665B1920B52ED300256B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF665B1A20B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF665B1B20B52ED300256B95 /* Debug */,
+				EF665B1C20B52ED300256B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF665AF320B52ECC00256B95 /* HotWater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF665AF420B52ECC00256B95 /* HotWater.xcdatamodel */,
+			);
+			currentVersion = EF665AF420B52ECC00256B95 /* HotWater.xcdatamodel */;
+			path = HotWater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF665AE120B52ECC00256B95 /* Project object */;
+}
