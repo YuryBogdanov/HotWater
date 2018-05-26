@@ -7,19 +7,77 @@
 //
 
 import UIKit
+import Alamofire
+import SearchTextField
+import FSCalendar
 
 class ViewController: UIViewController {
+    
+    static let baseURL = "https://www.mos.ru/otvet-hotwater/suggest/"
 
+    @IBOutlet weak var searchTextField: SearchTextField!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setupTextField()
     }
+    
+//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+//        //
+//        //    }
+//        //
+//        //    func textField(_ textField: UITextField,
+//        //                   shouldChangeCharactersIn range: NSRange,
+//        //                   replacementString string: String) -> Bool {
+//
+//        guard
+//            let text = textField.text,
+//            let nsSearchText = searchText.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+//                assertionFailure("encoding should be")
+//                return true
+//        }
+//
+//        let searchText = nsSearchText as String
+//        let url = baseURL + searchText
+//
+//        Alamofire.request(url).responseHotWaters { [weak self] response in
+//            guard
+//                let strongSelf = self,
+//                let hotWaters = response.result.value
+//                else { return }
+//
+//            let adressSuggests = hotWaters.map { $0.address }
+//            searchTextField.filterStrings(adressSuggests)
+//        }
+//
+//        return true
+//    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private func setupTextField() {
+        searchTextField.startVisibleWithoutInteraction = true
+        searchTextField.delegate = self
+        searchTextField.placeholder = "Введите адресс дома"
+//        // Set data source
+//        let countries = localCountries()
+//        countryTextField.filterStrings(countries)
     }
+    
+//    private func searchRequest(with adressString: String) {
+//
+//    }
+}
 
+
+
+
+// MARK: - UITextFieldDelegate
+
+extension ViewController: UITextFieldDelegate {
+    
 
 }
 

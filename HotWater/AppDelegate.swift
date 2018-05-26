@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        address.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
+        
+//        if let encoded = (text as NSString).addingPercentEscapes(using: String.Encoding.windowsCP1251.rawValue) {
+//            print(encoded)
+//            // %CC%EE%F6%E0%F0%F2
+//        }
+        
+        let baseURL = "https://www.mos.ru/otvet-hotwater/suggest/"
+        guard let nsSearchString = "ЩЕлков".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+            assertionFailure("encoding should be")
+            return true
+        }
+        
+        let searchString = nsSearchString as String
+        let url = baseURL + searchString
+        
+        Alamofire.request(url).responseJSON { response in
+            print(response)
+        }
+        
+//        Alamofire.request(url).responseData { response in
+//            guard
+//                let data = response.result.value,
+//                let pairsDictionary = try? JSONDecoder().decode([String: Pair.Details].self, from: data)
+//                else { return }
+//
+//            var pairs: [Pair] = []
+//            for (name, details) in pairsDictionary {
+//                let pair = Pair(name: name, details: details)
+//                pairs.append(pair)
+//            }
+//            completion(pairs)
+//        }
+        
         return true
     }
 

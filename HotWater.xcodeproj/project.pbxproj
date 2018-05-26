@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0E1F4609A6B96F87D6B9AAA /* Pods_HotWater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BDC822E66D66A572337271 /* Pods_HotWater.framework */; };
+		D20591E2781F03910395BE1A /* Pods_HotWaterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9AAAB2BDEBB3A066CFB13 /* Pods_HotWaterUITests.framework */; };
+		EF267DCFE99C319284A4D9B5 /* Pods_HotWaterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BACCD388DF3FF488EE21E1 /* Pods_HotWaterTests.framework */; };
 		EF665AED20B52ECC00256B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665AEC20B52ECC00256B95 /* AppDelegate.swift */; };
 		EF665AEF20B52ECC00256B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665AEE20B52ECC00256B95 /* ViewController.swift */; };
 		EF665AF220B52ECC00256B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF665AF020B52ECC00256B95 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		EF665AFA20B52ED200256B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF665AF820B52ED200256B95 /* LaunchScreen.storyboard */; };
 		EF665B0520B52ED300256B95 /* HotWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665B0420B52ED300256B95 /* HotWaterTests.swift */; };
 		EF665B1020B52ED300256B95 /* HotWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665B0F20B52ED300256B95 /* HotWaterUITests.swift */; };
+		EF665B1E20B9472E00256B95 /* HotWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665B1D20B9472E00256B95 /* HotWater.swift */; };
+		EF665B2020B987B000256B95 /* HotWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF665B1F20B987B000256B95 /* HotWaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E205120EB28096F2E84C105 /* Pods-HotWaterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotWaterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotWaterTests/Pods-HotWaterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13BACCD388DF3FF488EE21E1 /* Pods_HotWaterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotWaterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35318F1EA54C006B9F836281 /* Pods-HotWater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotWater.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotWater/Pods-HotWater.release.xcconfig"; sourceTree = "<group>"; };
+		44BF80734D917949D165226A /* Pods-HotWaterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotWaterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotWaterUITests/Pods-HotWaterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47BDC822E66D66A572337271 /* Pods_HotWater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotWater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B4B044F9A0C7E642B2B1F2 /* Pods-HotWaterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotWaterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotWaterTests/Pods-HotWaterTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAD9AAAB2BDEBB3A066CFB13 /* Pods_HotWaterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotWaterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74639D28EA16B0310F7A34C /* Pods-HotWaterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotWaterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotWaterUITests/Pods-HotWaterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF665AE920B52ECC00256B95 /* HotWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF665AEC20B52ECC00256B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF665AEE20B52ECC00256B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,9 @@
 		EF665B0B20B52ED300256B95 /* HotWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF665B0F20B52ED300256B95 /* HotWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotWaterUITests.swift; sourceTree = "<group>"; };
 		EF665B1120B52ED300256B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF665B1D20B9472E00256B95 /* HotWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotWater.swift; sourceTree = "<group>"; };
+		EF665B1F20B987B000256B95 /* HotWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotWaterViewController.swift; sourceTree = "<group>"; };
+		F8B3C7F6BC12B86FC8D4E8CE /* Pods-HotWater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotWater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotWater/Pods-HotWater.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E1F4609A6B96F87D6B9AAA /* Pods_HotWater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF267DCFE99C319284A4D9B5 /* Pods_HotWaterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20591E2781F03910395BE1A /* Pods_HotWaterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B175841225505D90EF862A48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3C7F6BC12B86FC8D4E8CE /* Pods-HotWater.debug.xcconfig */,
+				35318F1EA54C006B9F836281 /* Pods-HotWater.release.xcconfig */,
+				0E205120EB28096F2E84C105 /* Pods-HotWaterTests.debug.xcconfig */,
+				59B4B044F9A0C7E642B2B1F2 /* Pods-HotWaterTests.release.xcconfig */,
+				C74639D28EA16B0310F7A34C /* Pods-HotWaterUITests.debug.xcconfig */,
+				44BF80734D917949D165226A /* Pods-HotWaterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF665AE020B52ECC00256B95 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				EF665B0320B52ED300256B95 /* HotWaterTests */,
 				EF665B0E20B52ED300256B95 /* HotWaterUITests */,
 				EF665AEA20B52ECC00256B95 /* Products */,
+				B175841225505D90EF862A48 /* Pods */,
+				F850DCD01A7BDC0E96434472 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +140,8 @@
 				EF665AF820B52ED200256B95 /* LaunchScreen.storyboard */,
 				EF665AFB20B52ED200256B95 /* Info.plist */,
 				EF665AF320B52ECC00256B95 /* HotWater.xcdatamodeld */,
+				EF665B1D20B9472E00256B95 /* HotWater.swift */,
+				EF665B1F20B987B000256B95 /* HotWaterViewController.swift */,
 			);
 			path = HotWater;
 			sourceTree = "<group>";
@@ -128,6 +164,16 @@
 			path = HotWaterUITests;
 			sourceTree = "<group>";
 		};
+		F850DCD01A7BDC0E96434472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47BDC822E66D66A572337271 /* Pods_HotWater.framework */,
+				13BACCD388DF3FF488EE21E1 /* Pods_HotWaterTests.framework */,
+				AAD9AAAB2BDEBB3A066CFB13 /* Pods_HotWaterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF665B1420B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWater" */;
 			buildPhases = (
+				C54E466CD6932B83AA04E777 /* [CP] Check Pods Manifest.lock */,
 				EF665AE520B52ECC00256B95 /* Sources */,
 				EF665AE620B52ECC00256B95 /* Frameworks */,
 				EF665AE720B52ECC00256B95 /* Resources */,
+				E10289AEA7B671511CD2A9F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF665B1720B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWaterTests" */;
 			buildPhases = (
+				6D4411268333520B16D629C8 /* [CP] Check Pods Manifest.lock */,
 				EF665AFC20B52ED300256B95 /* Sources */,
 				EF665AFD20B52ED300256B95 /* Frameworks */,
 				EF665AFE20B52ED300256B95 /* Resources */,
@@ -170,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF665B1A20B52ED300256B95 /* Build configuration list for PBXNativeTarget "HotWaterUITests" */;
 			buildPhases = (
+				73ADF5165C2570EAEA3F4169 /* [CP] Check Pods Manifest.lock */,
 				EF665B0720B52ED300256B95 /* Sources */,
 				EF665B0820B52ED300256B95 /* Frameworks */,
 				EF665B0920B52ED300256B95 /* Resources */,
@@ -254,6 +304,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D4411268333520B16D629C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotWaterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73ADF5165C2570EAEA3F4169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotWaterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54E466CD6932B83AA04E777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotWater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10289AEA7B671511CD2A9F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HotWater/Pods-HotWater-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotWater/Pods-HotWater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF665AE520B52ECC00256B95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +391,8 @@
 				EF665AF520B52ECC00256B95 /* HotWater.xcdatamodeld in Sources */,
 				EF665AEF20B52ECC00256B95 /* ViewController.swift in Sources */,
 				EF665AED20B52ECC00256B95 /* AppDelegate.swift in Sources */,
+				EF665B1E20B9472E00256B95 /* HotWater.swift in Sources */,
+				EF665B2020B987B000256B95 /* HotWaterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,17 +563,21 @@
 		};
 		EF665B1520B52ED300256B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B3C7F6BC12B86FC8D4E8CE /* Pods-HotWater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HS76VV6WJD;
 				INFOPLIST_FILE = HotWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +585,21 @@
 		};
 		EF665B1620B52ED300256B95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35318F1EA54C006B9F836281 /* Pods-HotWater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HS76VV6WJD;
 				INFOPLIST_FILE = HotWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = oShip.HotWater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +607,7 @@
 		};
 		EF665B1820B52ED300256B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E205120EB28096F2E84C105 /* Pods-HotWaterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +629,7 @@
 		};
 		EF665B1920B52ED300256B95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B4B044F9A0C7E642B2B1F2 /* Pods-HotWaterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +651,7 @@
 		};
 		EF665B1B20B52ED300256B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74639D28EA16B0310F7A34C /* Pods-HotWaterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +672,7 @@
 		};
 		EF665B1C20B52ED300256B95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BF80734D917949D165226A /* Pods-HotWaterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

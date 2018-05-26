@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.2)
+  - FSCalendar (2.7.9)
+  - SearchTextField (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - FSCalendar (~> 2.7.9)
+  - SearchTextField (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FSCalendar
+    - SearchTextField
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  SearchTextField: a5bb7e4c33affadb115afdbe8100d84ef10a8024
+
+PODFILE CHECKSUM: a19a78a14b5e55b9434f4cbf6abf5dcfcf77372a
+
+COCOAPODS: 1.5.0
