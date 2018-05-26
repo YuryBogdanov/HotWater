@@ -30,13 +30,13 @@ class HotWaterViewController: UIViewController {
         
         guard
             let text = textField.text,
-            let nsSearchText = searchText.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+            let nsSearchText = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
                 assertionFailure("encoding should be")
                 return true
         }
         
         let searchText = nsSearchText as String
-        let url = baseURL + searchText
+        let url = HotWaterViewController.baseURL + searchText
         
         Alamofire.request(url).responseHotWaters { [weak self] response in
             guard
@@ -45,7 +45,7 @@ class HotWaterViewController: UIViewController {
                 else { return }
             
             let adressSuggests = hotWaters.map { $0.address }
-            searchTextField.filterStrings(adressSuggests)
+            strongSelf.searchTextField.filterStrings(adressSuggests)
         }
         
         return true
